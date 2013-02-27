@@ -6,8 +6,8 @@ def get_paths():
     """
     Redefine data_path and submissions_path here to run the benchmarks on your machine
     """
-    data_path = os.path.join(os.environ["DataPath"], "FastIron", "Release")
-    submission_path = os.path.join(os.environ["DataPath"], "FastIron", "Submissions")
+    data_path = os.path.join("C:", "FastIron", "/home/play/Example/Kaggle/Bulldozer/Data/")
+    submission_path = os.path.join("C:", "FastIron", "/home/play/Example/Kaggle/Bulldozer/Data/")
     return data_path, submission_path
 
 def get_train_df(data_path = None):
